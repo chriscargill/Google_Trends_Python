@@ -19,8 +19,8 @@ move_mouse_speed = 1
 terminal_close_x = 1302
 terminal_close_y = 390
 
-downloads_folder = "~/Downloads/multiTimeline.csv"
-file_folder = "/home/username/GoogleTrends/data/"
+downloads_folder = "~/Downloads/multiTimeline.csv" # This location will have to match the folder where you automatically download files
+file_folder = "/home/username/GoogleTrends/data/" # This location will have to be changed to the folder where you want your data saved
 
 def getRandomInterval():
     """ Get a random decimal number from 0 to 1 """
